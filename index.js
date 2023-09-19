@@ -14,7 +14,7 @@ const selectingDrivers =
 
   
   const createFareMultiplier =(multiply) => {
-    return fare = (value) => {
+    return (value) => {
       return value * multiply
     }
   }
